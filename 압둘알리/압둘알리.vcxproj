@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{893ff872-003c-469c-91e3-29c5f64a0326}</ProjectGuid>
-    <RootNamespace>메인01</RootNamespace>
+    <ProjectGuid>{2d82de21-9c51-427e-b650-ac0c6f5fdfef}</ProjectGuid>
+    <RootNamespace>압둘알리</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>A01</ProjectName>
+    <ProjectName>B01</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,8 +140,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="a01.c" />
-    <ClCompile Include="a02.c" />
+    <ClCompile Include="b01.c" />
+    <ClCompile Include="b02.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
